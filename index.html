@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Iconic CSS -->
+    <link href="iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">  
+
+    <title>Desafio 1 - Hiring Coders</title>
+  </head>
+
+  <body style="background-color: #171717">    
+    <header>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img class="logo" src="img/logo.png" width="142">
+          </a>
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div id="nav-principal" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="navbar-item">
+                <a href="" class="nav-link border-bottom">Home</a>
+              </li>
+              <li class="navbar-item">
+                <a href="" class="nav-link">Promoções</a>
+              </li>
+              <li class="navbar-item">
+                <a href="" class="nav-link">Parceiros</a>
+              </li>
+              <li class="navbar-item">
+                <a href="" class="nav-link">Contato</a>
+              </li>
+              <li class="navbar-item">
+                <button class="btn btn-sm btn-outline-light mt-1">Entrar</button>
+              </li>
+              <li class="navbar-item">
+                <button class="btn btn-sm btn-outline-light mt-1">Cadastrar</button>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="container">
+        <div class="principal row d-flex justify-content-lg-center">
+          <div class="resultado col-7 ">
+            <div class="d-none d-md-block text-center mt-lg-4 mt-xl-0">
+              <img class="w-100" src="img/mulher.png">
+            </div>            
+          </div>
+          <div class="resultado col-5" >
+            <div class="d-none d-md-block text-center mt-lg-4 mt-xl-0">
+              <img class="w-100" src="img/black-friday.png" >
+            </div>            
+          </div>
+        </div>       
+      </div>
+      <div class="col-12 mb-5 p-2 w-75 text-center ml-auto mr-auto" style="border-radius: 8px;">
+        <button type="button" class="btn btn-danger solicitar-btn" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Fique por dentro !</button>
+      </div>
+    </section>
+
+    <footer style="background-color: black;">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 d-md-flex">
+                <div class="align-self-end">
+                  <p>
+                    <a href="">Home</a>
+                    <a href="">Recursos</a>
+                    <a href="">Beneficios</a>
+                    <a href="">Preços</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 d-md-flex justify-content-end">
+                <a href="#" class="btn btn-outline-primary border-0">
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a style="padding-left: 9px; padding-right: 9px;" href="#" class="btn btn-outline-danger border-0 ml-2">
+                  <i class="fab fa-youtube fa-2x"></i>
+                </a>
+                <a href="#" class="btn btn-outline-info border-0 ml-2">
+                  <i class="fab fa-twitter fa-2x"></i>
+                </a>
+              </div>
+          </div>
+      </div>  
+
+    </footer>
+
+    <section class="modal-cadastro">
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" style="background-color: #171717;">
+              
+            <div class="modal-header">
+              <h4 class="modal-title text-center" id="exampleModalLabel">Fique por dentro de todas as nossas promoções !</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">     
+              <form>
+                <div class="form-group" style="background-color: #171717; margin-bottom: 0rem;">
+                  <label for="email-input" class="col-form-label">Nome</label>
+                  <input type="text" class="form-control" id="email-input">
+                </div>
+                <div class="form-group" style="background-color: #171717;">
+                  <label for="email-input" class="col-form-label">Email</label>
+                  <input type="text" class="form-control" id="email-input">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="popup-btn-fechar" data-dismiss="modal">Fechar</button>
+              <button type="submit" class="popup-btn-enviar">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+
+  </body>
+</html>

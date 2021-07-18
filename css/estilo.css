@@ -1,0 +1,159 @@
+body{
+	background-image:url(../img/fundo.png);
+	background-size: 100%;
+}
+#home {
+	color: gray;
+}
+
+header a{
+	color: white;
+}
+
+header a:hover{
+	color: gray;
+}
+header li {
+	margin-right: 10px;
+}
+header li:hover{
+	border-bottom: 1px solid gray;
+}
+header nav{
+	background-color: rgb(0, 0, 0);
+}
+header .logo{
+	width: 125px;
+}
+
+.principal{
+	text-align: center;
+}
+
+
+form p, label{
+	color: white;
+}
+
+
+
+h4{
+	color: red;
+	padding: 5px 0px;
+}
+form input{
+	color: pink;
+}
+
+
+footer{
+	padding: 30px;
+	height: 140px;
+}
+
+footer p a{
+	margin:5px 15px;
+	color: #ffffff;
+}
+
+footer p a:hover{
+	margin:5px 15px;
+	color: gray;
+}
+
+
+.modal-dialog{
+	border: 3px solid #000000;
+}
+
+.popup-btn-enviar{
+	color:white;
+	width: auto;
+	padding: 5px 10px;
+	border: 1px solid red;
+	background-color: red;
+	border-radius: 5px;
+}
+.popup-btn-enviar:hover{
+	color: white;
+	width: auto;
+	padding: 5px 10px;
+	border: 1px solid red;
+	background-color: rgba(255, 0, 0, 0.568);
+	border-radius: 5px;
+}
+
+
+.popup-btn-fechar{
+	color: red;
+	width: auto;
+	padding: 5px 10px;
+	border: 1px solid red;
+	background-color: #171717;
+	border-radius: 5px;
+}
+
+.popup-btn-fechar:hover{
+	color: white;
+	width: auto;
+	padding: 5px 10px;
+	border: 1px solid red;
+	background-color: rgba(255, 0, 0, 0.568);
+	border-radius: 5px;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.simulacao{
+		margin-bottom: 15px;
+	}
+	.resultado{
+		margin-bottom: 30px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.simulacao{
+		margin-bottom: 15px;
+	}
+	.resultado{
+		margin-bottom: 20px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.resultado{
+		padding-top: 65px;
+		margin-bottom: 60px;
+	}
+	.resultado img{
+		width: 64%;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.simulacao{
+		padding-top: 115px;
+	}
+	.resultado{
+		padding-bottom: 0px;
+	}
+	.resultado img{
+		width: 49%;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.simulacao{
+		padding-top: 112px;
+	}
+	
+}
+	
